@@ -23,22 +23,22 @@
 \textbf{Project Title}\\
 
 \vspace{0.25cm}
-$\rule{7cm}{0.15mm}$\\
+AI Music Composer\\
 
 \textbf{Short Project Statement}\\
-Hello, here is some text without a meaning.  This text should show what a printed text will look like at this place. If you read this text, you will get no information. Really? Is there no information?  Is there a difference between this text and some nonsense like ``Huardest gefburn''?  Kjift -- not at all!  A blind text like this gives you information about the selected font, how the letters are written and an impression of the look. A blind text should contain all letters of the alphabet (but this particular one doesn't) and it should be written in the original language.
+This project aims to develop an AI capable of composing original music in a variety of styles. The system will leverage machine learning techniques to learn patterns and structures from existing musical pieces, and then use this knowledge to generate new compositions. The goal is to create a tool that can assist musicians in the creative process and explore the boundaries of AI-driven art.
 
 \columnbreak
 \textbf{Team Members}
 \begin{enumerate}
 
-    \item Drew Clarkin
-    \vspace{1cm}
     \item Adhithya Guhan
+    \vspace{1cm}
+    \item Al Henry Lefebvre
     \vspace{1cm}
     \item Dena Shink
     \vspace{1cm}
-    \item Al Henry Lefebvre
+    \item Drew Clarkin
 
 \end{enumerate}
 
@@ -48,12 +48,22 @@ Hello, here is some text without a meaning.  This text should show what a printe
 \begin{enumerate}
 	\item Describe the problem space. What are the objectives, challenges, and constraints? What are some of the variations found in the problem space?
 
+    The objective of this project is to create an AI that can compose music that is both novel and coherent. The main challenge lies in capturing the complex interplay of melody, harmony, and rhythm that defines a musical piece. The AI must also be able to generate music in a variety of styles, from classical to contemporary. Constraints include the size and quality of the dataset used for training, as well as the computational resources required to train and run the model.
+
 	\item What are some historical attempts to tackle the problem space? Include links and references where appropriate.
+
+    Early attempts at algorithmic composition relied on rule-based systems and formal grammars to generate music. While these systems could produce structurally sound pieces, they often lacked the creativity and emotional depth of human-composed music. More recent approaches have utilized machine learning, particularly deep learning models like Recurrent Neural Networks (RNNs) and Generative Adversarial Networks (GANs), to learn the statistical patterns of music and generate more expressive and realistic compositions. References include the work of David Cope with his Experiments in Musical Intelligence, and more recently, Google's Magenta project.
 \end{enumerate}
 
 \section{Algorithms}
 \begin{enumerate}
-    \item What solution are you proposing? How will this compare to historical approaches? \item What algorithms will you implement? Include links and references where appropriate.
+    \item What solution are you proposing? How will this compare to historical approaches?
+
+    We propose to use a Long Short-Term Memory (LSTM) network, a type of Recurrent Neural Network (RNN), to generate music. This approach is well-suited for sequential data like music, as it can learn long-term dependencies between notes. This is a significant improvement over historical rule-based systems, which are often limited to producing music with a predefined structure.
+
+    \item What algorithms will you implement? Include links and references where appropriate.
+
+    The LSTM will be trained on a large dataset of MIDI files from various genres. The model will learn to predict the next note in a sequence, given the preceding notes. By repeatedly sampling from the model's output distribution, we can generate new musical sequences. We will also explore techniques for controlling the style and structure of the generated music, such as by conditioning the model on a specific genre or composer. A key reference for this approach is the work of Douglas Eck and his colleagues on the Magenta project at Google.
 \end{enumerate}
 
 \section{Third-Party Libraries and Technologies}
@@ -62,8 +72,16 @@ If you intend to use third-party tools or technologies, please explain the follo
 
 \begin{enumerate}
 	\item What technology will you be using?
+
+    We will be using Python as the primary programming language for this project. Specifically, we will use the TensorFlow and Keras libraries for building and training our deep learning models.
+
 	\item What will it be used for / how will it assist you in your project?
+
+    TensorFlow and Keras will be used to implement the LSTM network. These libraries provide a high-level API for building and training neural networks, which will allow us to focus on the architecture of the model and the creative aspects of the project. We will also use the Music21 library to parse and process the MIDI files in our dataset.
+
 	\item How will you demonstrate your knowledge of the topic area despite off-loading work to the third-party technology?
+
+    While we are using these libraries to handle the low-level details of implementing a neural network, we will demonstrate our knowledge of the topic by designing the network architecture, selecting appropriate hyperparameters, and curating the training data. We will also be responsible for interpreting the output of the model and using it to generate music.
 \end{enumerate}
 
 List this for \textbf{all} non-standard libraries you will use. For example, the first item for many Python developers might be numpy, and the first item for many Javascript developers might be jquery. You may always opt to use more third-party tools later by presenting the proposal modification request form to your mentors at one of your check-ins.
@@ -76,19 +94,39 @@ In this section, please list the specific action items that you intend to comple
 
 Fallback goals for the project should go here.
 
+- Implement a basic LSTM model for music generation.
+- Train the model on a small dataset of classical music (e.g., Bach chorales).
+- Generate a short musical piece in the style of the training data.
+
 \subsection{B-range Goals}
 
 Your target goals for the project should go here. These must go beyond the specific algorithms covered in class.
 
+- Train the LSTM model on a larger and more diverse dataset, including different genres and composers.
+- Implement a mechanism for controlling the style of the generated music.
+- Generate multiple, longer musical pieces that are stylistically coherent and aesthetically pleasing.
+
 \subsection{A-range Goals}
 
 Ambitious goals for the project should go here.
+
+- Implement a web-based interface for the music generation model, allowing users to select different styles and generate music.
+- Conduct a user study to evaluate the quality and creativity of the AI-generated music.
 
 
 \section*{Timeline}
 Please delineate the major milestones of your project (no milestone should take more than a week to accomplish). The milestones should have accompanying descriptions of everything they entail.\\
 
 Then, for each milestone, specify when you will have it completed (specific date). Additionally, make it clear which milestones you will have completed by each check-in date.
+
+\begin{itemize}
+    \item \textbf{Week 1 (Nov 3-9):} Research and Data Collection. We will finalize our choice of dataset and begin preprocessing the MIDI files.
+    \item \textbf{Week 2 (Nov 10-16):} Model Implementation. We will implement the baseline LSTM model in TensorFlow/Keras.
+    \item \textbf{Week 3 (Nov 17-23):} Model Training. We will train the LSTM model on our dataset and begin to generate short musical sequences.
+    \item \textbf{Week 4 (Nov 24-30):} Style and Structure. We will implement techniques for controlling the style and structure of the generated music.
+    \item \textbf{Week 5 (Dec 1-7):} Evaluation and Refinement. We will evaluate the quality of the generated music and refine the model based on our findings.
+    \item \textbf{Week 6 (Dec 8-14):} Final Project. We will prepare the final project report and presentation.
+\end{itemize}
 
 \section*{Acknowledgement}
 

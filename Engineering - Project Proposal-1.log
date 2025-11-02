@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 NOV 2025 20:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 NOV 2025 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -190,10 +190,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 26.
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
@@ -204,47 +200,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 95.
+(enumitem)                sense, on input line 133.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 135.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 135.
 
-Overfull \hbox (12.82867pt too wide) in paragraph at lines 97--98
+Overfull \hbox (12.82867pt too wide) in paragraph at lines 135--136
 []\OT1/cmr/m/n/10 Instructor Men-tor 1 $[]$  Sig-na-ture $[]$ 
  []
 
 
-Overfull \hbox (12.82867pt too wide) in paragraph at lines 100--101
+Overfull \hbox (12.82867pt too wide) in paragraph at lines 138--139
 []\OT1/cmr/m/n/10 Instructor Men-tor 2 $[]$  Sig-na-ture $[]$ 
  []
 
 
 
-[2]
-
-[3] (./Engineering - Project Proposal-1.aux)
+[3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./Engineering - Project Proposal-1.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1550 strings out of 473190
- 26774 string characters out of 5715801
- 433759 words of memory out of 5000000
- 24849 multiletter control sequences out of 15000+600000
- 563092 words of font info for 50 fonts, out of 8000000 for 9000
+ 1557 strings out of 473190
+ 26907 string characters out of 5715801
+ 434759 words of memory out of 5000000
+ 24854 multiletter control sequences out of 15000+600000
+ 563427 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,686b,230s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Engineering - Project Proposal-1.pdf" (3 pages, 74793 bytes).
+ 57i,6n,65p,781b,232s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "Engineering - Project Proposal-1.pdf" (3 pages, 88031 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

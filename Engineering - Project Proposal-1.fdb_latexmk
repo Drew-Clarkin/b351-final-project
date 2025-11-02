@@ -1,7 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1762042126.06186 "/Users/adhithyaguhan/Documents/VSC/b351/final/b351-final-project/Engineering - Project Proposal-1.tex" "Engineering - Project Proposal-1.pdf" "Engineering - Project Proposal-1" 1762042126.29637 0
-  "/Users/adhithyaguhan/Documents/VSC/b351/final/b351-final-project/Engineering - Project Proposal-1.tex" 1762042111.51858 4576 350d855744defb6011f79e89913cadcf ""
+["pdflatex"] 1762042843.10988 "/Users/adhithyaguhan/Documents/VSC/b351/final/b351-final-project/Engineering - Project Proposal-1.tex" "Engineering - Project Proposal-1.pdf" "Engineering - Project Proposal-1" 1762042843.3645 0
+  "/Users/adhithyaguhan/Documents/VSC/b351/final/b351-final-project/Engineering - Project Proposal-1.tex" 1762042842.43183 8977 f38c5a151ff37fe50b1483271544c750 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -19,6 +21,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty" 1734129479 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
@@ -32,8 +35,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1760645171 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Engineering - Project Proposal-1.aux" 1762042126.27598 776 fc4f9898e4feab9fcc383ccbc42a88ed "pdflatex"
-  "Engineering - Project Proposal-1.tex" 1762042111.51858 4576 350d855744defb6011f79e89913cadcf ""
+  "Engineering - Project Proposal-1.aux" 1762042843.34104 776 348473b2a3907e94a1306951988c0305 "pdflatex"
+  "Engineering - Project Proposal-1.tex" 1762042842.43183 8977 f38c5a151ff37fe50b1483271544c750 ""
   (generated)
   "Engineering - Project Proposal-1.aux"
   "Engineering - Project Proposal-1.log"
