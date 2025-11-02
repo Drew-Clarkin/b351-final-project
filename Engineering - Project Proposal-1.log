@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 NOV 2025 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 NOV 2025 20:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -204,36 +204,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
 Package enumitem Warning: Negative labelwidth. This does not make much
-(enumitem)                sense, on input line 97.
+(enumitem)                sense, on input line 95.
 
 
-Overfull \hbox (12.82867pt too wide) in paragraph at lines 99--100
+Overfull \hbox (12.82867pt too wide) in paragraph at lines 97--98
 []\OT1/cmr/m/n/10 Instructor Men-tor 1 $[]$  Sig-na-ture $[]$ 
  []
 
 
-Overfull \hbox (12.82867pt too wide) in paragraph at lines 102--103
+Overfull \hbox (12.82867pt too wide) in paragraph at lines 100--101
 []\OT1/cmr/m/n/10 Instructor Men-tor 2 $[]$  Sig-na-ture $[]$ 
  []
 
 
-Overfull \hbox (14.51157pt too wide) in paragraph at lines 106--107
+Overfull \hbox (14.51157pt too wide) in paragraph at lines 104--105
 []\OT1/cmr/m/n/10 Team Mem-ber 1 $[]$  Sig-na-ture $[]$ 
  []
 
 
-Overfull \hbox (14.51157pt too wide) in paragraph at lines 109--110
+Overfull \hbox (14.51157pt too wide) in paragraph at lines 107--108
 []\OT1/cmr/m/n/10 Team Mem-ber 2 $[]$  Sig-na-ture $[]$ 
  []
 
 
-Overfull \hbox (14.51157pt too wide) in paragraph at lines 112--113
+Overfull \hbox (14.51157pt too wide) in paragraph at lines 110--111
 []\OT1/cmr/m/n/10 Team Mem-ber 3 $[]$  Sig-na-ture $[]$ 
  []
 
@@ -252,9 +252,9 @@ Here is how much of TeX's memory you used:
  24849 multiletter control sequences out of 15000+600000
  563092 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,686b,242s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,686b,230s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "Engineering - Project Proposal-1.pdf" (2 pages, 74358 bytes).
+Output written on "Engineering - Project Proposal-1.pdf" (2 pages, 74531 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  21 compressed objects within 1 object stream
